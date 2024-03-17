@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summator</title>
+    <script type="module" crossorigin src="/assets/index-5FoiG28Q.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-JrYcdEZl.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <button type="button" class="nav__left"><img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='80px'%20height='80px'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.71069%2018.2929C10.1012%2018.6834%2010.7344%2018.6834%2011.1249%2018.2929L16.0123%2013.4006C16.7927%2012.6195%2016.7924%2011.3537%2016.0117%2010.5729L11.1213%205.68254C10.7308%205.29202%2010.0976%205.29202%209.70708%205.68254C9.31655%206.07307%209.31655%206.70623%209.70708%207.09676L13.8927%2011.2824C14.2833%2011.6729%2014.2833%2012.3061%2013.8927%2012.6966L9.71069%2016.8787C9.32016%2017.2692%209.32016%2017.9023%209.71069%2018.2929Z'%20fill='%23FFF'/%3e%3c/svg%3e" alt=""></button>
+      <div class="nav__box">
+        <a href="#" class="nav__list-el">Сумматор</a>
+        <a href="#" class="nav__list-el display-disactive">Триггер</a>
+      </div>
+      <button class="nav__right" type="button"><img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width='80px'%20height='80px'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.71069%2018.2929C10.1012%2018.6834%2010.7344%2018.6834%2011.1249%2018.2929L16.0123%2013.4006C16.7927%2012.6195%2016.7924%2011.3537%2016.0117%2010.5729L11.1213%205.68254C10.7308%205.29202%2010.0976%205.29202%209.70708%205.68254C9.31655%206.07307%209.31655%206.70623%209.70708%207.09676L13.8927%2011.2824C14.2833%2011.6729%2014.2833%2012.3061%2013.8927%2012.6966L9.71069%2016.8787C9.32016%2017.2692%209.32016%2017.9023%209.71069%2018.2929Z'%20fill='%23FFF'/%3e%3c/svg%3e" alt=""></button>
+    </nav>
+    
+    <main class="main">
+
+      <section id="summator" class="summator" >
+        <div class="summator__res-box">
+          <p class="summator__res-t"></p>
+          <p class="summator__res-b"></p>
+        </div>
+        <div class="summator__box">
+          <form action="#" class="summator__form">
+            <input type="text" class="summator__first-num" placeholder="Введите первое число">
+            <input type="text" class="summator__second-num" placeholder="Введите второе число">
+          </form>
+          <ul class="summator__lamps">
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+            <li class="summator__lamp"></li>
+          </ul>
+        </div>
+        <div class="summator__btn">
+          <button type="button" class="summator__reset">reset</button>
+          <button type="button" class="summator__sum-up">sum up</button>
+        </div>
+      </section>
+
+      <section class="trigger display-disactive">
+        <button type="button" class="trigger__lever"><p id="trig-t" class="trigger__lever-t">0</p></button>
+        <div class="trigger__box-in-line"></div>
+        <div class="trigger__box">
+          <div class="trigger__box-in">
+            <p>T</p>
+          </div>
+          <div class="trigger__box-cp">
+            <p>T</p>
+          </div>
+          <div class="trigger__box-out">
+            <p>Q</p>
+            <p>Q</p>
+          </div>
+        </div>
+        <div class="trigger__box-out-line"></div>
+        <div class="trigger__bin">
+          <p class="trigger__bin-q">0</p>
+          <p class="trigger__bin-not-q">0</p>
+        </div>
+      </section>
+
+
+    </main>
+  </body>
+</html>
